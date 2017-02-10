@@ -11,19 +11,19 @@
     <title>Morgan Integration</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
 
 
-	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-57x57.png" />
-	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
-	<link rel="apple-touch-icon" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
-	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#34495e" />
-	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
-	<meta name="msapplication-TileColor" content="#34495e" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#34495e" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#34495e" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- BOOTSTRAP -->
@@ -39,15 +39,16 @@
     <link type='text/css' href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' />
     <link type='text/css' href='http://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' />
 
-	<!-- PAGE LAYOUT -->
-	<link type="text/css" href="src/css/style.css?ver=1" rel="stylesheet" media="screen" />
-	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!--[if lt IE 9]>
+    <!-- PAGE LAYOUT -->
+    <link type="text/css" href="src/css/style.css?ver=1" rel="stylesheet" media="screen" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
 		<script src="assets/js/html5shiv.js"></script>
 		<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
 
 </head>
+
 <body>
     <!-- BEGIN HEADER -->
     <header id="masthead" class="site-header" role="banner">
@@ -58,19 +59,94 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </div>
-                <a id="ni-home" class="nav-on-right boxed custom-bg" id="body-wrapper" href="#page" style="background-image: url(&quot;http://bonitohtml.senorthemes.com/src/img/backgrounds/escheresque_ste.png&quot;);">
+                <a id="ni-home" class="navbar-brand" href="#page">
                     <img class="img-responsive" src="img/logo.png" alt="Morgan Integration" width="109" height="40" />
                 </a>
             </div>
-			<h2>HI THIS IS A TEST</h2>
-		</div>
+            <nav id="navigation" role="navigation">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <ul class="flexnav" data-breakpoint="768">
+                    <li class="active"><a id="ni-start" href="#start">Start</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 </body>
-    <!-- end div #masthead -->
-    <!-- END HEADER -->
-    <!-- BEGIN CONTENT -->
-    <div id="MainPage">
-    	<h2>HI THIS IS A TEST</h2>
-	</div>
-	<!-- END #CONTENT-WRAPPER -->
+<!-- end div #masthead -->
+<!-- END HEADER -->
+<!-- BEGIN CONTENT -->
+<div id="Page">
+    <!-- BEGIN #CONTENT-WRAPPER -->
+    <div id="content-wrapper">
+        <div id="main" class="site-main">
+            <section id="home" class="section" style="overflow:hidden">
+                <!-- START REVOLUTION SLIDER -->
+                <div class="home-text-wrapper fullwidthbanner-container">
+                    <div id="home-slider" class="slider fullwidthbanner">
+                        <ul class="slides list-unstyled">
+                            <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-target="_blank" data-slideindex="back">
+                                <!-- THE MAIN IMAGE IN THE SLIDE -->
+                                <!-- Notes: this image is required so in case user don´t load a main image then we include this transparent one -->
+                                <img alt="" class="img-responsive" width="240" height="240" src="img/rs-plugin/slides/transparent.png" data-lazyload="img/rs-plugin/slides/transparent.png" />
+
+                                <!-- THE CAPTIONS OF THE FIRST SLIDE -->
+                                <div class="caption title-text randomrotate fadeout" data-x="center" data-y="45" data-speed="300" data-start="800" data-captionhidden="on" data-easing="easeOutExpo">
+                                    <span>SHOWCASE ANYTHING</span>
+                                </div>
+                                <div class="caption title-subinfo lfb fadeout long-text" data-x="center" data-y="125" data-speed="1200" data-start="1000" data-captionhidden="on" data-easing="easeOutExpo">
+                                    <span class="">A Beautifully Crafted Multi-Purpose One-Page Responsive Theme <br class="visible-xs" />with Tons of Possibilities</span>
+                                </div>
+                                <div class="caption sfb" data-x="center" data-y="bottom" data-speed="1200" data-start="2000" data-easing="easeOutBack">
+                                    <img width="865" height="457" src="img/slides/monitor.png" class="img-responsive" alt="Monitor" />
+                                </div>
+                            </li>
+                            <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-target="_blank" data-slideindex="back" class="">
+                                <!-- THE MAIN IMAGE IN THE SLIDE -->
+                                <img alt="" class="img-responsive" src="img/rs-plugin/slides/dummy.png" height="240" height="240" />
+                                <!-- THE CAPTIONS OF THE FIRST SLIDE -->
+                                <div class="caption title-text randomrotate fadeout" data-x="25" data-y="135" data-speed="300" data-start="800" data-captionhidden="on" data-easing="easeOutExpo">
+                                    <span>ULTRA RESPONSIVE</span>
+                                </div>
+                                <div class="caption para sfr fadeout" data-x="25" data-y="207" data-speed="300" data-start="1500" data-captionhidden="on" data-easing="easeOutExpo">
+                                    <span>Built on the sleek, intuitive, and powerful mobile first<br />Bootstrap 3 framework. This ensures Bonito looks<br />great in all mobile devices.</span>
+                                </div>
+                                <div class="caption para btn-wrapper randomrotate fadeout" data-x="25" data-y="343" data-speed="600" data-start="2000" data-captionhidden="on" data-easing="easeOutExpo">
+                                    <a href="#" class="btn-link">BUY NOW</a>
+                                </div>
+                                <div class="caption para btn-wrapper btn-second randomrotate fadeout" data-x="165" data-y="343" data-speed="600" data-start="2400" data-captionhidden="on" data-easing="easeOutExpo">
+                                    <a href="#" class="btn-link">LEARN MORE</a>
+                                </div>
+                                <div class="caption sfb" data-x="645" data-y="bottom" data-speed="1000" data-start="3000" data-easing="easeOutBack">
+                                    <img width="504" height="539" src="img/slides/iPad.png" class="img-responsive" alt="iPad" />
+                                </div>
+                                <div class="caption sfb" data-x="580" data-y="bottom" data-speed="1000" data-start="4000" data-easing="easeOutBack">
+                                    <img width="232" height="308" src="img/slides/iPhone.png" class="img-responsive" alt="iPhone" />
+                                </div>
+                            </li>
+                            <li data-transition="3dcurtain-vertical" data-slotamount="5" data-masterspeed="300" data-target="_blank" data-slideindex="back">
+                                <!-- THE MAIN IMAGE IN THE SLIDE -->
+                                <!-- Notes: this image is required so in case user don´t load a main image then we include this transparent one -->
+                                <img alt="" class="img-responsive" width="1607" height="600" src="img/slides/slide-3.png" data-lazyload="img/slides/slide-3.png" />
+
+                                <!-- THE CAPTIONS OF THE FIRST SLIDE -->
+                                <div class="caption title-text sft fadeout" data-x="center" data-y="135" data-speed="300" data-start="1000" data-captionhidden="on" data-easing="easeOutExpo">
+                                    <span>SOME CATCHY TAGLINE HERE</span>
+                                </div>
+                                <div class="caption title-subinfo para text-center lfb fadeout" data-x="center" data-y="226" data-speed="500" data-start="1500" data-captionhidden="on" data-easing="easeOutExpo">
+                                    <span>One morning, when Gregor Samsa woke from troubled dreams, he found himself <br />transformed in his bed into a horrible vermin. He lay on his armour-like back, and<br >if he lifted his head a little he could see his brown belly, slightly domed<br />divided by arches into stiff sections</span>
+                                </div>
+                                <div class="caption para btn-wrapper randomrotate fadeout" data-x="center" data-y="393" data-speed="600" data-start="2000" data-captionhidden="on" data-easing="easeOutExpo">
+                                    <a href="#" class="btn-link active" target="_blank">BUY TEMPLATE NOW</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- END REVOLUTION SLIDER -->
+            </section>
+        </div>
+    </div>
+</div>
+<!-- END #CONTENT-WRAPPER -->
+
 </html>

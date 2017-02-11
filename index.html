@@ -39,6 +39,10 @@
     <link type='text/css' href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' />
     <link type='text/css' href='http://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' />
 
+    <!-- PLUGINS -->
+    <link type="text/css" href="assets/rs-plugin/css/settings.css?ver=1" rel="stylesheet" media="screen" />
+    <link type="text/css" href="assets/flexnav/css/flexnav.css?ver=1" rel="stylesheet" />
+
     <!-- PAGE LAYOUT -->
     <link type="text/css" href="src/css/style.css?ver=1" rel="stylesheet" media="screen" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -71,82 +75,128 @@
             </nav>
         </div>
     </header>
-</body>
-<!-- end div #masthead -->
-<!-- END HEADER -->
-<!-- BEGIN CONTENT -->
-<div id="Page">
-    <!-- BEGIN #CONTENT-WRAPPER -->
-    <div id="content-wrapper">
-        <div id="main" class="site-main">
-            <section id="home" class="section" style="overflow:hidden">
-                <!-- START REVOLUTION SLIDER -->
-                <div class="home-text-wrapper fullwidthbanner-container">
-                    <div id="home-slider" class="slider fullwidthbanner">
-                        <ul class="slides list-unstyled">
-                            <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-target="_blank" data-slideindex="back">
-                                <!-- THE MAIN IMAGE IN THE SLIDE -->
-                                <!-- Notes: this image is required so in case user don´t load a main image then we include this transparent one -->
-                                <img alt="" class="img-responsive" width="240" height="240" src="img/rs-plugin/slides/transparent.png" data-lazyload="img/rs-plugin/slides/transparent.png" />
+    <!-- end div #masthead -->
+    <!-- END HEADER -->
+    <!-- BEGIN CONTENT -->
+    <div id="Page">
+        <!-- BEGIN #CONTENT-WRAPPER -->
+        <div id="content-wrapper">
+            <div id="main" class="site-main">
+                <section id="home" class="section" style="overflow:hidden">
+                    <!-- START REVOLUTION SLIDER -->
+                    <div class="home-text-wrapper fullwidthbanner-container">
+                        <div id="home-slider" class="slider fullwidthbanner">
+                            <ul class="slides list-unstyled">
+                                <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-target="_blank" data-slideindex="back">
+                                    <!-- THE MAIN IMAGE IN THE SLIDE -->
+                                    <!-- Notes: this image is required so in case user don´t load a main image then we include this transparent one -->
+                                    <img alt="" class="img-responsive" width="240" height="240" src="img/rs-plugin/slides/transparent.png" data-lazyload="img/rs-plugin/slides/transparent.png" />
 
-                                <!-- THE CAPTIONS OF THE FIRST SLIDE -->
-                                <div class="caption title-text randomrotate fadeout" data-x="center" data-y="45" data-speed="300" data-start="800" data-captionhidden="on" data-easing="easeOutExpo">
-                                    <span>SHOWCASE ANYTHING</span>
-                                </div>
-                                <div class="caption title-subinfo lfb fadeout long-text" data-x="center" data-y="125" data-speed="1200" data-start="1000" data-captionhidden="on" data-easing="easeOutExpo">
-                                    <span class="">A Beautifully Crafted Multi-Purpose One-Page Responsive Theme <br class="visible-xs" />with Tons of Possibilities</span>
-                                </div>
-                                <div class="caption sfb" data-x="center" data-y="bottom" data-speed="1200" data-start="2000" data-easing="easeOutBack">
-                                    <img width="865" height="457" src="img/slides/monitor.png" class="img-responsive" alt="Monitor" />
-                                </div>
-                            </li>
-                            <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-target="_blank" data-slideindex="back" class="">
-                                <!-- THE MAIN IMAGE IN THE SLIDE -->
-                                <img alt="" class="img-responsive" src="img/rs-plugin/slides/dummy.png" height="240" height="240" />
-                                <!-- THE CAPTIONS OF THE FIRST SLIDE -->
-                                <div class="caption title-text randomrotate fadeout" data-x="25" data-y="135" data-speed="300" data-start="800" data-captionhidden="on" data-easing="easeOutExpo">
-                                    <span>ULTRA RESPONSIVE</span>
-                                </div>
-                                <div class="caption para sfr fadeout" data-x="25" data-y="207" data-speed="300" data-start="1500" data-captionhidden="on" data-easing="easeOutExpo">
-                                    <span>Built on the sleek, intuitive, and powerful mobile first<br />Bootstrap 3 framework. This ensures Bonito looks<br />great in all mobile devices.</span>
-                                </div>
-                                <div class="caption para btn-wrapper randomrotate fadeout" data-x="25" data-y="343" data-speed="600" data-start="2000" data-captionhidden="on" data-easing="easeOutExpo">
-                                    <a href="#" class="btn-link">BUY NOW</a>
-                                </div>
-                                <div class="caption para btn-wrapper btn-second randomrotate fadeout" data-x="165" data-y="343" data-speed="600" data-start="2400" data-captionhidden="on" data-easing="easeOutExpo">
-                                    <a href="#" class="btn-link">LEARN MORE</a>
-                                </div>
-                                <div class="caption sfb" data-x="645" data-y="bottom" data-speed="1000" data-start="3000" data-easing="easeOutBack">
-                                    <img width="504" height="539" src="img/slides/iPad.png" class="img-responsive" alt="iPad" />
-                                </div>
-                                <div class="caption sfb" data-x="580" data-y="bottom" data-speed="1000" data-start="4000" data-easing="easeOutBack">
-                                    <img width="232" height="308" src="img/slides/iPhone.png" class="img-responsive" alt="iPhone" />
-                                </div>
-                            </li>
-                            <li data-transition="3dcurtain-vertical" data-slotamount="5" data-masterspeed="300" data-target="_blank" data-slideindex="back">
-                                <!-- THE MAIN IMAGE IN THE SLIDE -->
-                                <!-- Notes: this image is required so in case user don´t load a main image then we include this transparent one -->
-                                <img alt="" class="img-responsive" width="1607" height="600" src="img/slides/slide-3.png" data-lazyload="img/slides/slide-3.png" />
+                                    <!-- THE CAPTIONS OF THE FIRST SLIDE -->
+                                    <div class="caption title-text randomrotate fadeout" data-x="center" data-y="45" data-speed="300" data-start="800" data-captionhidden="on" data-easing="easeOutExpo">
+                                        <span>Coming Soon</span>
+                                    </div>
+                                    <div class="caption title-subinfo lfb fadeout long-text" data-x="center" data-y="125" data-speed="1200" data-start="1000" data-captionhidden="on" data-easing="easeOutExpo">
+                                        <span class="">Expertise in Engineering <br class="visible-xs" />Automated Test Systems</span>
+                                    </div>
+                                    <div class="caption sfb" data-x="center" data-y="bottom" data-speed="1200" data-start="2000" data-easing="easeOutBack">
+                                        <img width="865" height="457" src="img/slides/FirstConstruction.png" class="img-responsive" alt="Under Construction" />
+                                    </div>
+                                </li>
+                                <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-target="_blank" data-slideindex="back" class="">
+                                    <!-- THE MAIN IMAGE IN THE SLIDE -->
+                                    <img alt="" class="img-responsive" src="img/rs-plugin/slides/dummy.png" height="240" height="240" />
+                                    <!-- THE CAPTIONS OF THE FIRST SLIDE -->
+                                    <div class="caption title-text randomrotate fadeout" data-x="25" data-y="135" data-speed="300" data-start="800" data-captionhidden="on" data-easing="easeOutExpo">
+                                        <span>Systems Engineering and Analytics</span>
+                                    </div>
+                                    <div class="caption para sfr fadeout" data-x="25" data-y="207" data-speed="300" data-start="1500" data-captionhidden="on" data-easing="easeOutExpo">
+                                        <span>Built on Robust systems engineering framework.  <br />Utilizing the frequent delivery model of Agile.  <br />Delivering quality and traceability.</span>
+                                    </div>
+                                    <div class="caption para btn-wrapper randomrotate fadeout" data-x="25" data-y="343" data-speed="600" data-start="2000" data-captionhidden="on" data-easing="easeOutExpo">
+                                        <a href="" https://nz.linkedin.com/in/katherinemorgan "" class="btn-link">LINKED IN</a>
+                                    </div>
+                                    <div class="caption para btn-wrapper randomrotate fadeout" data-x="175" data-y="343" data-speed="600" data-start="2400" data-captionhidden="on" data-easing="easeOutExpo">
+                                        <a href="" http://www.incose.org/about/leadershiporganization/codeofethics "" class="btn-link">ETHICS</a>
+                                    </div>
+                                    <div class="caption para btn-wrapper btn-second randomrotate fadeout" data-x="305" data-y="343" data-speed="600" data-start="2800" data-captionhidden="on" data-easing="easeOutExpo">
+                                        <a href="mailto:kmorgan@morganintegration.com?Subject=Inquiry%20from%20Website" class="btn-link">E-MAIL US</a>
+                                    </div>
+                                    <div class="caption sfb" data-x="645" data-y="bottom" data-speed="1000" data-start="3000" data-easing="easeOutBack">
+                                        <img width="504" height="539" src="img/slides/iPad.png" class="img-responsive" alt="iPad" />
+                                    </div>
+                                    <div class="caption sfb" data-x="580" data-y="bottom" data-speed="1000" data-start="4000" data-easing="easeOutBack">
+                                        <img width="232" height="308" src="img/slides/iPhone.png" class="img-responsive" alt="iPhone" />
+                                    </div>
+                                </li>
+                                <li data-transition="3dcurtain-vertical" data-slotamount="5" data-masterspeed="300" data-target="_blank" data-slideindex="back">
+                                    <!-- THE MAIN IMAGE IN THE SLIDE -->
+                                    <!-- Notes: this image is required so in case user don´t load a main image then we include this transparent one -->
+                                    <img alt="" class="img-responsive" width="1607" height="600" src="img/slides/slide-3.png" data-lazyload="img/slides/slide-3.png" />
 
-                                <!-- THE CAPTIONS OF THE FIRST SLIDE -->
-                                <div class="caption title-text sft fadeout" data-x="center" data-y="135" data-speed="300" data-start="1000" data-captionhidden="on" data-easing="easeOutExpo">
-                                    <span>SOME CATCHY TAGLINE HERE</span>
-                                </div>
-                                <div class="caption title-subinfo para text-center lfb fadeout" data-x="center" data-y="226" data-speed="500" data-start="1500" data-captionhidden="on" data-easing="easeOutExpo">
-                                    <span>One morning, when Gregor Samsa woke from troubled dreams, he found himself <br />transformed in his bed into a horrible vermin. He lay on his armour-like back, and<br >if he lifted his head a little he could see his brown belly, slightly domed<br />divided by arches into stiff sections</span>
-                                </div>
-                                <div class="caption para btn-wrapper randomrotate fadeout" data-x="center" data-y="393" data-speed="600" data-start="2000" data-captionhidden="on" data-easing="easeOutExpo">
-                                    <a href="#" class="btn-link active" target="_blank">BUY TEMPLATE NOW</a>
-                                </div>
-                            </li>
-                        </ul>
+                                    <!-- THE CAPTIONS OF THE FIRST SLIDE -->
+                                    <div class="caption title-text sft fadeout" data-x="center" data-y="135" data-speed="300" data-start="1000" data-captionhidden="on" data-easing="easeOutExpo">
+                                        <span>SOME CATCHY TAGLINE HERE</span>
+                                    </div>
+                                    <div class="caption title-subinfo para text-center lfb fadeout" data-x="center" data-y="226" data-speed="500" data-start="1500" data-captionhidden="on" data-easing="easeOutExpo">
+                                        <span>One morning, when Gregor Samsa woke from troubled dreams, he found himself <br />transformed in his bed into a horrible vermin. He lay on his armour-like back, and<br >if he lifted his head a little he could see his brown belly, slightly domed<br />divided by arches into stiff sections</span>
+                                    </div>
+                                    <div class="caption para btn-wrapper randomrotate fadeout" data-x="center" data-y="393" data-speed="600" data-start="2000" data-captionhidden="on" data-easing="easeOutExpo">
+                                        <a href="#" class="btn-link active" target="_blank">BUY TEMPLATE NOW</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <!-- END REVOLUTION SLIDER -->
-            </section>
+                    <!-- END REVOLUTION SLIDER -->
+                </section>
+            </div>
         </div>
     </div>
-</div>
-<!-- END #CONTENT-WRAPPER -->
+    <!-- END #CONTENT-WRAPPER -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/jquery.mobile.custom.min.js?ver=1"></script>
+    <script type="text/javascript" src="src/js/bootstrap.min.js"></script>
+
+    <!-- Include external apis -->
+    <script type="text/javascript" src="http://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript" src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="assets/js/jquery.fitvids.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/ajaxPageLoad/js/jquery.translate3d.js?ver=1"></script>
+    <script type="text/javascript" src="assets/ajaxPageLoad/js/jquery.senorthemes.ajax-page-load.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/modernizr.custom.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/placeholders.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/waypoints.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/retina-1.1.0.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/jflickrfeed.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/flexslider/jquery.flexslider-min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/jquery.easing.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/jquery.mousewheel.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/hoverintent.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/flexnav/js/jquery.flexnav.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/isotope.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/jquery.isotope.sloppy-masonry.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/classie.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/modalEffects.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/jquery.scrollTo.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/jquery.nav.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/chart.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/jquery.sharrre.min.js?ver=1"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script type="text/javascript" src="assets/rs-plugin/js/jquery.themepunch.plugins.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/jquery-throttle-debounce-master/jquery.ba-throttle-debounce.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/jquery.flexsliderExtnd.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/jquery-validate/jquery.validate.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/jquery-form/jquery.form.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/jquery-validate/additional-methods.min.js?ver=1"></script>
+    <script type="text/javascript" src="assets/mobileFix.js?ver=1"></script>
+    <script type="text/javascript" src="src/js/scripts.js?ver=1"></script>
+    <script type="text/javascript" src="assets/js/fast.active.min.js?ver=1"></script>
+</body>
 
 </html>

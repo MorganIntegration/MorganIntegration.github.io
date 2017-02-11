@@ -1,0 +1,113 @@
+// .navbar-fixed-top {
+// 	z-index: 999999999 !important;
+// }
+
+// #navbar {
+// 	background-color: @themeMainColor;
+// 	border-bottom: 1px solid @navbar-default-toggle-border-color;
+// 	.navbar {
+// 		margin-bottom: 0;
+// 		background: transparent;
+// 		border: none;
+// 		@nav-link-color: white;
+// 		ul {
+// 			ul {
+// 				position: absolute;
+// 				background-color: @themeMainColor;
+// 				width: 174px;
+// 				top: 100%;
+// 				left: 0;
+// 				display: none;
+// 				li {
+// 					border-bottom: 1px solid @themeColorBorderVariant2;
+// 					a {
+// 						line-height: @navbar-padding-vertical;
+// 						@nav-sub-link-height: 36px;
+// 						line-height: @nav-sub-link-height;
+// 						padding: 0 5px;
+// 					}
+// 					&:last-child {
+// 						border: none;
+// 					}
+// 				}
+// 			}
+// 		}
+// 		.navbar-nav {
+// 			li {
+// 				&:hover {
+// 					background-color: @themeHoverColor;
+// 				}
+// 				&.current {
+// 					background-color: @themeHoverColor;
+// 				}
+// 				a {
+
+// 					.remove-text-decoration();
+// 					display: block;
+// 					.transition(.2s, linear);
+// 					&:hover {
+// 						background-color: @themeHoverColor;
+// 						.remove-text-decoration();
+// 					}
+// 					&.sf-with-ul{
+// 						padding-right: 2.5em;
+// 					}
+// 				}
+// 			}
+			
+// 		}
+// 		.navbar-brand {
+// 			padding: 27px 15px;
+// 		}
+// 		.navbar-collapse {
+// 			a {
+// 				color: white;
+// 				&:hover {
+// 					color: @nav-link-color;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+// @media only screen and (max-width: 1200px) {
+// 	#navbar .navbar .navbar-nav li a {
+// 		padding-left: 7px;	
+// 		padding-right: 7px;	
+// 		&.sf-with-ul{
+// 			padding-right: 2em;
+// 		}
+// 	}
+// }
+// @media only screen and (min-width: 768px) and (max-width: 995px) {
+// 	#navbar .navbar {
+// 		.navbar-header .navbar-brand{
+// 			width: 100px;
+// 		}
+// 		.navbar-nav {
+// 			padding: 0;
+// 			li a {
+// 					padding-left: 5px;	
+// 					padding-right: 5px;
+// 					font-size: 12px;	
+					
+// 			}
+// 		}
+// 	}
+// }
+// @media only screen and (max-width: 767px) {
+// 	#navbar .navbar {
+// 		.navbar-header .navbar-brand{
+// 			width: inherit;
+// 		}
+// 		.navbar-nav {
+// 			li a {
+					
+// 			}
+// 		}
+// 	}
+// }
+// @media only screen and (min-width: 0px) and (max-width: 479px) {
+// 	#navbar .navbar .navbar-nav li a {
+		
+// 	}
+// }

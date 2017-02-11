@@ -1,0 +1,39 @@
+/*-------------------------------------------------------------------------*/
+/*  HEADER SECTION
+/*-------------------------------------------------------------------------*/
+.section-header {
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: 20px;
+	padding: 84px 0;
+	@media (max-width: @screen-xs-max) {
+		padding: 20px 0;
+		text-align: center;
+	}
+	ul {
+		margin: 0;
+	}
+	.banner-wrapper {
+		overflow: hidden;
+		.banner-content {
+			line-height: 26px;
+			padding: 10px 0;
+			.banner-title {
+				line-height: 56px;
+				@media (max-width: @screen-xs-max) {
+					.font-size(1.8);
+					text-align: center;
+				}
+			}
+			margin: 0 auto;
+		}
+	}
+	.banner-content {
+		color: white;
+		.banner-title {
+			font-size: 48px;
+			font-weight: 300;
+			line-height: 100%;
+		}
+	}
+}

@@ -1,0 +1,277 @@
+/*************************************************************************************/ 
+/*                                                                                   */
+/*                                 PLUGINS STYLING                                   */
+/*                                                                                   */
+/*************************************************************************************/
+
+@import 'bootstrap/variables';
+@image-path: 						"../img/";
+
+/*-------------------------------------------------------------------------*/
+/*  THEME COLORS
+/*-------------------------------------------------------------------------*/
+.peach {
+	background: #f39c12;
+	color: #f39c12;
+}
+.orange {
+	background: #d35400;
+	color: #d35400;
+}
+.red {
+	background: #c0392b;
+	color: #c0392b;
+}
+.cyan {
+	background: #16a085;
+	color: #16a085;
+}
+.green {
+	background: #27ae60;
+	color: #27ae60;
+}
+.blue {
+	background: #2980b9;
+	color: #2980b9;
+}
+.violet {
+	background: #8e44ad;
+	color: #8e44ad;
+}
+.navy-blue {
+	background: #2c3e50;
+	color: #2c3e50;
+}
+
+/*-------------------------------------------------------------------------*/
+/*  LAYOUT STYLE
+/*-------------------------------------------------------------------------*/
+body {
+	// + BOXED LAYOUT
+	&.boxed {
+		box-shadow: 0 0 2px #666;
+		background: url('@{image-path}backgrounds/az_subtle.png') repeat;
+		margin: 0 auto;
+		@media (min-width: @screen-sm-min) {
+			width: @container-sm;
+		}
+		@media (min-width: @screen-md-min) {
+			width: @container-md;
+		}
+		@media (min-width: @screen-lg-min) {
+			width: @container-lg;
+		}
+		#page {
+			background: white;
+		}
+		header {
+			@media (min-width: @screen-sm-min) {
+				width: @container-sm;
+			}
+			@media (min-width: @screen-md-min) {
+				width: @container-md;
+			}
+			@media (min-width: @screen-lg-min) {
+				width: @container-lg;
+			}
+			margin: 0 auto;
+		}
+		.container, #features .container, #services .container {
+			@media (min-width: @screen-sm-min) {
+				width: @container-sm;
+			}
+			@media (min-width: @screen-md-min) {
+				width: @container-md;
+				padding-left: @grid-gutter-width;
+				padding-right: @grid-gutter-width;
+			}
+			@media (min-width: @screen-lg-min) {
+				width: @container-lg;
+				padding-left: @grid-gutter-width;
+				padding-right: @grid-gutter-width;
+			}
+			
+		}
+		footer.site-footer {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.services .row, .features .row {
+			margin-right: 0;
+			margin-left: 0;
+		}
+	}
+	&.custom-bg {
+		background-position: top left;
+		background-attachment: fixed;
+		background-repeat: repeat;
+		background-color: white;
+	}
+}
+
+/*-------------------------------------------------------------------------*/
+/*  THEME BACKGROUND
+/*-------------------------------------------------------------------------*/
+.bg1 {
+	// background: url('@{image-path}backgrounds/az_subtle.png') repeat;
+}
+.bg2 {
+	// background: url('@{image-path}backgrounds/bedge_grunge.png') repeat;
+}
+.bg3 {
+	// background: url('@{image-path}backgrounds/black_lozenge.png') repeat;
+}
+.bg4 {
+	// background: url('@{image-path}backgrounds/dark_fish_skin.png') repeat;
+}
+.bg5 {
+	// background: url('@{image-path}backgrounds/debut_dark.png') repeat;
+}
+.bg6 {
+	// background: url('@{image-path}backgrounds/escheresque_ste.png') repeat;
+}
+.bg7 {
+	// background: url('@{image-path}backgrounds/kindajean.png') repeat;
+}
+.bg8 {
+	// background: url('@{image-path}backgrounds/retina_wood.png') repeat;
+}
+.bg9 {
+	// background: url('@{image-path}backgrounds/sprinkles.png') repeat;
+}
+.bg10 {
+	// background: url('@{image-path}backgrounds/subtle_grunge.png') repeat;
+}
+.bg11 {
+	// background: url('@{image-path}backgrounds/tweed.png') repeat;
+}
+.bg12 {
+	// background: url('@{image-path}backgrounds/wild_oliva.png') repeat;
+}
+
+.az_subtle, .bedge_grunge, .debut_dark, .black_lozenge, .dark_fish_skin, .escheresque_ste, .retina_wood, .kindajean, .sprinkles, .subtle_grunge, .tweed, .wild_oliva{
+	background: url('@{image-path}backgrounds/patterns.png') no-repeat;
+}
+
+.az_subtle{
+	background-position: -5px -5px;
+	width: 24px;
+	height: 24px;
+}
+
+.bedge_grunge{
+	background-position: -32px -5px;
+	width: 24px;
+	height: 24px;
+}
+
+.black_lozenge{
+	background-position: -59px -5px;
+	width: 24px;
+	height: 24px;
+}
+
+.dark_fish_skin{
+	background-position: -86px -5px;
+	width: 24px;
+	height: 24px;
+}
+
+.debut_dark{
+	background-position: -5px -32px;
+	width: 24px;
+	height: 24px;
+}
+
+.escheresque_ste{
+	background-position: -32px -32px;
+	width: 24px;
+	height: 24px;
+}
+
+.kindajean{
+	background-position: -59px -32px;
+	width: 24px;
+	height: 24px;
+}
+
+.retina_wood{
+	background-position: -86px -32px;
+	width: 24px;
+	height: 24px;
+}
+
+.sprinkles{
+	background-position: -5px -60px;
+	width: 24px;
+	height: 24px;
+}
+
+.subtle_grunge{
+	background-position: -32px -60px;
+	width: 24px;
+	height: 24px;
+}
+
+.tweed{
+	background-position: -59px -60px;
+	width: 24px;
+	height: 24px;
+}
+
+.wild_oliva{
+	background-position: -86px -60px;
+	width: 24px;
+	height: 24px;
+}
+
+
+
+#style-switcher {
+	.toggle-container {
+		a {
+			background: url('@{image-path}switcher-toggle.png') no-repeat;
+			width: 49px;
+			height: 138px;
+			display: block;
+		}
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+		    only screen and (-o-min-device-pixel-ratio: 3/2),
+		    only screen and (min--moz-device-pixel-ratio: 1.5),
+		    only screen and (min-device-pixel-ratio: 1.5) {
+		        a {
+		        	background-image:url('@{image-path}switcher-toggle@2x.png');
+		        	background-size: 49px 138px;
+		        }
+		}
+		position: absolute;
+		top: -1px;
+		left: -49px;
+	}
+	a {
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
+	}	
+	background-color: #fff;
+	width: 158px;
+	position: fixed;
+	top: 120px;
+	z-index: 999;
+	right: -158px;
+	border: 1px solid #ccc;
+	padding: 20px 24px;
+	.colors, .backgrounds {
+		li {
+			padding: 0;
+			a {
+				width: 24px;
+				height: 24px;
+				display: block;
+				cursor: pointer;
+				border-radius: 12px;
+			}
+		}
+	}
+}
